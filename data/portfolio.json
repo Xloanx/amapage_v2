@@ -1,0 +1,141 @@
+{
+  "personal": {
+    "name": "Abiodun Muhammad-Ahmad Odukaye",
+    "title": "AI Fullstack Solutions Engineer || Senior Training & Development Consultant",
+    "location": "Lagos, Nigeria",
+    "phone": "+2348029161741",
+    "github": "https://www.github.com/xloanx",
+    "linkedin": "https://www.linkedin.com/in/abiodun-odukaye",
+    "resume": "/odukaye_abiodun_2025.pdf",
+    "heroDescription": "Passionate technology professional with a proven track record of innovation and excellence in the tech industry, specializing in enterprise-grade applications and intelligent solutions."
+  },
+  "skills": [
+    {
+      "category": "AI & Machine Learning Solutions",
+      "items": ["CrewAI", "PyTorch", "Scikit-learn", "OpenAI GPT", "Hugging Face", "Computer Vision", "Natural Language Processing", "Deep Learning", "MLOps"]
+    },
+    {
+      "category": "Full Stack Development", 
+      "items": ["Next.js", "Node.js", "Python", "TypeScript", "Express.js", "FastAPI", "PostgreSQL", "MongoDB", "Docker", "AWS", "GCP"]
+    },
+    {
+      "category": "Low Code/No Code Automation",
+      "items": ["Microsoft Power Platform", "n8n", "Make.com", "Bubble", "Retool", "Airtable", "Notion API", "UiPath", "Automation Anywhere"]
+    },
+    {
+      "category": "Training & Development Excellence",
+      "items": ["Instructional Design", "Learning Management Systems", "Training Needs Assessment", "Performance Evaluation", "Adult Learning Principles", "E-Learning Development", "Workshop Facilitation"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Industrial Training Fund",
+      "website": "https://www.itf.gov.ng",
+      "position": "Training & Development Specialist",
+      "duration": "2014 - Present",
+      "type": "Full Time",
+      "tools": ["Microsoft Office Suite", "Learning Management Systems", "Training Evaluation Software", "Survey Tools", "Video Conferencing Platforms", "E-Learning Authoring Tools"],
+      "responsibilities": [
+        "Design and implement comprehensive training programs for diverse technical and leadership development",
+        "Conduct training needs assessments across multiple organizational departments and skill levels",
+        "Facilitate workshops and seminars for professionals on technical, business, leadership and management topics",
+        "Develop curriculum and learning materials aligned with industry standards and organizational objectives",
+        "Evaluate training effectiveness through data-driven assessment methods and continuous improvement processes",
+        "Mentor and coach emerging talent to accelerate professional development and career advancement"
+      ]
+    },
+    {
+      "company": "Kernel Greens Integrated Services",
+      "website": "https://www.kernelgreens.com",
+      "position": "AI Fullstack Solutions Engineer",
+      "duration": "2016 - Present",
+      "type": "Freelance",
+      "tools": ["Python", "Javascript", "Next.js", "React", "TensorFlow", "Docker", "AWS", "PostgreSQL", "FastAPI", "Git", "Kubernetes", "CI/CD Pipelines"],
+      "responsibilities": [
+        "Architect and develop enterprise-grade AI-powered applications that drive operational efficiency",
+        "Implement machine learning models and algorithms to solve complex business challenges",
+        "Design scalable full-stack solutions using modern technologies and cloud infrastructure",
+        "Collaborate with cross-functional teams to align technical strategies with business objectives",
+        "Optimize application performance and ensure robust, secure, and maintainable codebases",
+        "Provide technical consulting and mentorship to development teams and stakeholders"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Training Analytics Platform",
+      "challenge": "Traditional training programs lacked data-driven insights for measuring effectiveness and identifying skill gaps across large organizations.",
+      "solution": "Developed an intelligent analytics platform that uses machine learning to analyze training performance, predict learning outcomes, and recommend personalized development paths.",
+      "implementation": "Built using React frontend, Python FastAPI backend, TensorFlow for ML models, and PostgreSQL for data storage. Deployed on AWS with automated CI/CD pipelines.",
+      "tools": ["React", "Python", "TensorFlow", "PostgreSQL", "AWS", "Docker"],
+      "repository": "Private Repository",
+      "image": "/placeholder.svg?height=300&width=500",
+      "demo": "Private Demo"
+    },
+    {
+      "title": "Stock Advisory System",
+      "challenge": "The stock market is highly volatile, and traders often make poor investment decisions due to lack of access to timely and relevant market insights. Traditional financial news sources are often delayed or fail to provide actionable insights tailored to an investor’s specific query. This system bridges that gap by scraping, processing, and retrieving critical financial information, offering traders clear, data-backed guidance before making investment decisions.",
+      "solution": "I developed an advanced Retrieval-Augmented Generation (RAG)-powered financial advice system designed to assist stock traders in making informed and data-driven investment decisions. The system focuses on providing real-time insights on high-profile stocks—NVIDIA (NVDA), Tesla (TSLA), and Alphabet (GOOG)—by continuously gathering and processing stock-related news and discussions from the internet.",
+      "implementation": "The solution leverages automated web scraping, natural language processing (NLP), vector-based search, and large language models (LLMs) to provide real-time, contextualized financial advice.",
+      "tools": ["Next.js", "FastAPI", "Vercel", "Render", "MySQL", "LangChain", "OpenAI GPT-3.5"],
+      "repository": "https://www.github.com/xloanx/gamma-advisor",
+      "image": "/placeholder.svg?height=300&width=500",
+      "demo": "https://gamma-advisor.vercel.app"
+    },
+    {
+      "title": "AI-Powered Solar Installation Productivity Tool",
+      "challenge": "Solar installation engineers often face challenges with accurately sizing components like batteries, solar panels, and inverters for diverse energy consumption needs. Manual calculations are time-consuming, error-prone, and can result in inefficient system design, increased installation costs, and under- or over-provisioning. Additionally, maintaining installations post-deployment lacks intelligent, accessible troubleshooting support. There's a need for a smart, responsive tool that guides engineers through system design and maintenance with precision and automation.",
+      "solution": "I developed a responsive, AI-assisted productivity web application tailored for solar installation engineers and technicians. The tool streamlines energy audits, automates solar component sizing (batteries, inverters, panels), and offers intelligent recommendations to optimize cost and performance. It includes an AI-powered chat interface for troubleshooting and advisory support, and a personalized dashboard with installation history for authenticated users. The app also features tiered access — allowing free use for small installations and premium access for larger projects.",
+      "implementation": "The app features an intelligent Energy Audit module that captures appliance usage to calculate power consumption, surge factors, and daily energy needs. It then uses standardized formulas and user-defined parameters to automate battery, solar panel, inverter, and charge controller sizing. An AI-powered chat interface offers real-time troubleshooting and optimization advice, while user authentication via Clerk enables personalized dashboards, history tracking, and access-based pricing tiers.",
+      "tools": ["Next.js", "n8n", "Pinecone", "Clerk", "OpenAI GPT-4.0", "Tailwind CSS", "Vercel"],
+      "repository": "https://github.com/KernelGreens/solvantage",
+      "image": "/solarvantage.png",
+      "demo": "https://solarvantage.vercel.app"
+    },
+    {
+      "title": "AI-Driven Cold Email & Call Workflow for Insurance Companies",
+      "challenge": "Cold emails and calls often fail because they lack relevance to the recipient. A generic message sent to multiple industries struggles to capture interest, leading to poor open rates, low response rates, and wasted efforts. Manually personalizing emails is both time-consuming and difficult to scale, especially when handling a large volume of prospects. Additionally, without data-driven optimization, companies are left guessing which messaging works best, resulting in inefficiencies in outreach campaigns Scaling personalized outreach requires a systematic approach that dynamically adjusts messaging based on industry-specific concerns, past engagement history, and AI-driven insights. Without automation, sales teams spend excessive time on repetitive tasks such as segmentation, follow-ups, and response tracking, which hinders efficiency. The lack of real-time analytics also prevents companies from making informed decisions on refining their sales approach.",
+      "solution": "This AI-driven solution personalizes cold emails based on the prospect’s industry, engagement level, and potential objections. Rather than relying on a static approach, the system applies a branching logic framework to dynamically generate content that resonates with different industries.",
+      "implementation": "The solution leverages multi-tasks LLM and Workflows Chaining.",
+      "tools": ["Next.js", "FastAPI","LangChain", "OpenAI GPT-4.0", "Tailwind CSS"],
+      "repository": "https://github.com/Xloanx/gamma-cold-mail-chain",
+      "image": "/placeholder.svg?height=300&width=500",
+      "demo": "https://gamma-cold-mail-chain.vercel.app"
+    },
+    {
+      "title": "AI-Powered YouTube Video Summarization System",
+      "challenge": "In today's fast-paced world, people want to stay updated on YouTube content but don’t always have the time to watch full videos. Whether it’s a movie, a documentary, or an educational video, users need a way to grasp key insights quickly without watching the entire video.",
+      "solution": "My team developed an AI-driven YouTube video summarization system that allows users to retrieve concise, accurate, and structured summaries based on a YouTube video title or free-text prompt. The system uses function-calling AI techniques to Identify the correct video, extract and analyze its transcript, and generate a detailed yet concise summary—all while ensuring relevance and accuracy.",
+      "implementation": "Our implementation explored employed YouTube Video Search, Transcript Retrieval & Processing, AI-Powered Summarization using LangChain & LLMs, Accurate YouTube Video Linking, Text-to-Speech (TTS) Support, Interactive Frontend (Next.js).",
+      "tools": ["Next.js", "FastAPI","LangChain", "OpenAI GPT-4.0", "Tailwind CSS"],
+      "repository": "https://github.com/Xloanx/gamma-youtube-rear",
+      "image": "/placeholder.svg?height=300&width=500",
+      "demo": "https://youtube-summarizer-frontend-two.vercel.app/"
+    },
+    {
+      "title": "TrackPro - An AI-powered ticketing and service management platform",
+      "challenge": "In both private businesses and public institutions, customer satisfaction is often undermined by poor service delivery. Entrepreneurs invest heavily in building brands only for customer-facing staff to offer disjointed, slow, or careless service. These issues are amplified in government setups due to the absence of performance tracking and accountability. Key service gaps include delayed issue resolution, lack of transparency, inefficient communication, and burnout among service teams. The result is customer churn, loss of revenue, and growing distrust in public institutions.",
+      "solution": "My solution is an AI-powered ticketing and service management platform purpose-built to address the inefficiencies in service delivery across sectors. It empowers businesses and institutions to track, resolve, and learn from customer complaints using intelligent automation and collaboration tools. With predictive analytics, performance dashboards, and sentiment-based ticket prioritization, TrackPro ensures that customer issues are resolved transparently, efficiently, and with a focus on continuous improvement.",
+      "implementation": "TrackPro was built using a modular, multi-tenant architecture that enables businesses to self-onboard, configure QA teams, and manage support workflows. The platform combines AI-driven ticket routing, manual assignment, and predictive analytics to streamline issue resolution. Role-based dashboards ensure real-time visibility and accountability for QA personnel, support staff, and platform admins. A hybrid database system (MySQL + MongoDB) supports both structured operational data and flexible, AI-powered insights at scale.",
+      "tools": [
+                "Next.js 15",
+                "Tailwind CSS",
+                "Shadcn/UI",
+                "MySQL",
+                "MongoDB",
+                "OpenAI (or other LLM APIs)",
+                "Zapier / n8n (for automation)",
+                "AI-powered ticket routing",
+                "Sentiment Analysis tools",
+                "Predictive Analytics modules",
+                "Role-based Access Control",
+                "Real-time Notifications (e.g., Webhooks or SSE)"
+              ]
+              ,
+      "repository": "Private Repository",
+      "image": "/placeholder.svg?height=300&width=500",
+      "demo": "custom demo available upon request"
+    }
+  ],
+  "about": "Abiodun Muhammad-Ahmad Odukaye is proudly from Lagos, Nigeria. A Senior Training & Development Specialist with over 12 years of training experience in the Industrial Training Fund (ITF) - A Federal Government of Nigeria Agency charged with the responsibility of developing the Nation's Human Resource. Over the years, I have consulted for various organizations and trained numerous participants on technical, business, leadership and management workshops.\n\nI am a passionate technology professional with a proven track record of innovation and excellence in the tech industry. With extensive experience across diverse domains, I specialize in designing and developing enterprise-grade applications that drive operational efficiency and elevate productivity. My expertise lies in leveraging cutting-edge technologies and frameworks to craft intelligent solutions, solve complex challenges, and deliver exceptional user experiences.\n\nBeyond technical proficiency, I am dedicated to fostering innovation, mentoring emerging talent, and aligning technical strategies with overarching business goals to achieve impactful results. My unique combination of training expertise and technical excellence allows me to bridge the gap between human development and technological advancement."
+}

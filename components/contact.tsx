@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Phone, Mail } from "lucide-react";
+import { Github, Linkedin, Phone, Mail, Whatsapp } from "lucide-react";
 
 interface ContactProps {
   data: {
@@ -83,7 +83,7 @@ export const Contact = ({ data }: ContactProps) => {
                 className="h-16 gap-4 hover:scale-105 transition-transform"
               >
                 <a href={`https://wa.me/${data.phone.replace(/[^\d]/g, '')}`} target="_blank" rel="noopener noreferrer">
-                  <Mail className="w-6 h-6" />
+                  <Whatsapp className="w-4 h-4 text-green-600" />
                   <div className="text-left">
                     <div className="font-semibold">WhatsApp</div>
                     <div className="text-sm text-muted-foreground">Quick Message</div>

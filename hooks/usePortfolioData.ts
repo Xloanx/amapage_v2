@@ -11,6 +11,7 @@ export interface PortfolioData {
     phone: string;
     github: string;
     linkedin: string;
+    resume: string;
     heroDescription: string;
   };
   skills: Array<{
@@ -34,6 +35,7 @@ export interface PortfolioData {
     tools: string[];
     repository: string;
     image: string;
+    demo: string;
   }>;
   about: string;
 }

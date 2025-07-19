@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Phone, Mail } from "lucide-react";
+import { Github, Linkedin, Phone, Mail, MessageCircle } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
 interface ContactProps {
@@ -18,7 +18,7 @@ export const Contact = ({ data }: ContactProps) => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Let&apos;s Connect
+            Let's Connect
           </h2>
           <p className="text-lg text-muted-foreground">
             Ready to collaborate on innovative solutions or discuss opportunities
@@ -40,14 +40,14 @@ export const Contact = ({ data }: ContactProps) => {
               className="w-full h-16 gap-4 hover:scale-105 transition-transform"
             >
               <a href={`mailto:${data.email}`}>
-                <Mail className="w-6 h-6 text-red-800" />
+                <Mail className="w-6 h-6" />
                 <div className="text-left">
                   <div className="font-semibold">Email</div>
                   <div className="text-sm text-muted-foreground">{data.email}</div>
                 </div>
               </a>
             </Button>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Button 
                 variant="outline" 
@@ -56,7 +56,7 @@ export const Contact = ({ data }: ContactProps) => {
                 className="h-16 gap-4 hover:scale-105 transition-transform"
               >
                 <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="w-6 h-6 text-blue-800" />
+                  <Linkedin className="w-6 h-6" />
                   <div className="text-left">
                     <div className="font-semibold">LinkedIn</div>
                     <div className="text-sm text-muted-foreground">Professional Network</div>
@@ -88,7 +88,7 @@ export const Contact = ({ data }: ContactProps) => {
                 <a href={`tel:${data.phone}`}>
                   <Phone className="w-6 h-6" />
                   <div className="text-left">
-                    <div className="font-semibold">Phone/WhatsApp</div>
+                    <div className="font-semibold">Phone</div>
                     <div className="text-sm text-muted-foreground">{data.phone}</div>
                   </div>
                 </a>
@@ -101,7 +101,7 @@ export const Contact = ({ data }: ContactProps) => {
                 className="h-16 gap-4 hover:scale-105 transition-transform"
               >
                 <a href={`https://wa.me/${data.phone.replace(/[^\d]/g, '')}`} target="_blank" rel="noopener noreferrer">
-                  <FaWhatsapp className="w-4 h-4 text-green-600" />
+                  <FaWhatsapp className="w-6 h-6 text-green-600" />
                   <div className="text-left">
                     <div className="font-semibold">WhatsApp</div>
                     <div className="text-sm text-muted-foreground">Quick Message</div>

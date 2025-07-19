@@ -48,7 +48,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
               <CarouselItem key={index} >
                 <div className="p-1">
                   <Card  className="hover:shadow-lg transition-shadow duration-300 overflow-hidden">
-                    <div className="aspect-video bg-muted flex items-center justify-center overflow-hidden">
+                    <div className="aspect-video bg-muted flex  justify-center overflow-hidden">
                       <Image 
                         src={project.image} 
                         alt={project.title}

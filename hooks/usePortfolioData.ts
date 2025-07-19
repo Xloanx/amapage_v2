@@ -9,6 +9,7 @@ export interface PortfolioData {
     title: string;
     location: string;
     phone: string;
+    email: string;
     github: string;
     linkedin: string;
     resume: string;

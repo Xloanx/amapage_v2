@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Phone, Mail, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Phone, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
 interface ContactProps {
@@ -18,7 +18,7 @@ export const Contact = ({ data }: ContactProps) => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-lg text-muted-foreground">
             Ready to collaborate on innovative solutions or discuss opportunities

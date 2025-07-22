@@ -41,7 +41,6 @@ export const Projects = ({ projects }: ProjectsProps) => {
           </p>
         </div>
         
-        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8"> */}
           <Carousel className="w-full max-w-full">
             <CarouselContent >
               {projects.map((project, index) => (
@@ -122,8 +121,6 @@ export const Projects = ({ projects }: ProjectsProps) => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-
-        {/* </div> */}
       </div>
     </section>
   );

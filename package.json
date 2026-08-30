@@ -2,11 +2,16 @@
   "name": "amapage_v2",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "napi-postinstall": "0.3.4"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
